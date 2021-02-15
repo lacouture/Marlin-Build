@@ -16,5 +16,19 @@
            path="configs"
            remote="marlin"
            revision="bugfix-2.0.x"
-           />
+           >
+    <copyfile src="config/examples/Creality/Ender-3 V2/Configuration.h"
+              dest="marlin/Marlin/Configuration.h"
+              />
+    <copyfile src="config/examples/Creality/Ender-3 V2/Configuration_adv.h"
+              dest="marlin/Marlin/Configuration_adv.h"
+              />
+    <copyfile src="config/examples/Creality/Ender-3 V2/_Bootscreen.h"
+              dest="marlin/Marlin/_Bootscreen.h"
+              />
+    <copyfile src="config/examples/Creality/Ender-3 V2/_Statusscreen.h"
+              dest="marlin/Marlin/_Statusscreen.h"
+              />
+  </project>
+
 </manifest>
