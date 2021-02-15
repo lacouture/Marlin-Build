@@ -7,7 +7,7 @@
           fetch="https://github.com/MarlinFirmware"
           />
   <remote name="lacouture"
-          fetch="git@github.com:lacouture"
+          fetch="git+ssh://git@github.com:lacouture"
           />
 
   <project name="Marlin"
