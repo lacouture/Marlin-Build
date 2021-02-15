@@ -4,20 +4,17 @@
   </notice>
 
   <remote name="marlin"
-          fetch="https://github.com/MarlinFirmware/Marlin.git"
-          />
-  <remote name="configs"
-          fetch="https://github.com/MarlinFirmware/Configurations.git"
+          fetch="https://github.com/MarlinFirmware"
           />
 
-  <project name="marlin"
+  <project name="Marlin"
            path="marlin"
            remote="marlin"
            revision="bugfix-2.0.x"
            />
-  <project name="configs"
+  <project name="Configurations"
            path="configs"
-           remote="configs"
+           remote="marlin"
            revision="bugfix-2.0.x"
            />
 </manifest>
