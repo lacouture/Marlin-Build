@@ -1,0 +1,23 @@
+<manifest>
+  <notice>
+    Creality Ender 3 V2 configuration for Marlin by P.Lacouture.
+  </notice>
+
+  <remote name="marlin"
+          fetch="https://github.com/MarlinFirmware/Marlin.git"
+          />
+  <remote name="configs"
+          fetch="https://github.com/MarlinFirmware/Configurations.git"
+          />
+
+  <project name="marlin"
+           path="marlin"
+           remote="marlin"
+           revision="bugfix-2.0.x"
+           />
+  <project name="configs"
+           path="configs"
+           remote="configs"
+           revision="bugfix-2.0.x"
+           />
+</manifest>
