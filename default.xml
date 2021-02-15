@@ -15,7 +15,7 @@
   <project name="Configurations"
            path="configs"
            remote="marlin"
-           revision="bugfix-2.0.x"
+           revision="lacouture-CE3v2"
            >
     <copyfile src="config/examples/Creality/Ender-3 V2/Configuration.h"
               dest="marlin/Marlin/Configuration.h"
